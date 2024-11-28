@@ -26,6 +26,7 @@ fn main() {
         width: 10,
         height: 40,
     };
+    //rect1.width 뒤에 괄호를 붙이면 메서드로 인식, 괄호를 붙이지 않으면 width 필드를 의미
     println!("The rectangle has s nonzero width; it is {}", rect1.width());
     println!(
         "The area of the rectangle is {} square pixels.",
